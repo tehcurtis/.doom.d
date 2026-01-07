@@ -6,6 +6,10 @@
 (setq doom-theme 'doom-city-lights)
 (setq display-line-numbers-type 'relative)
 
+;;; Formatting
+(setq +format-on-save-disabled-modes
+      '(sql-mode tex-mode latex-mode org-msg-edit-mode))
+
 ;;; Org
 (setq org-directory "~/org/")
 
